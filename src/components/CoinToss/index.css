@@ -1,0 +1,127 @@
+/* Write your CSS here */
+
+.bg-card {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .coin-toss-game-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .coin-heading {
+    color: #a35200;
+    font-size: 30px;
+  }
+  .coin-description {
+    color: #334155;
+    font-size: 20px;
+  }
+  .coin-img {
+    width: 25%;
+    margin-bottom: 20px;
+  }
+
+  .coin-btn {
+    color: #a35200;
+    font-size: 18px;
+    background-color: #f9d423;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+  }
+
+  .coin-result-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-top: 10px;
+  }
+  .total {
+    color: #475569;
+    font-size: 18px;
+  }
+  .heads {
+    color: #475569;
+    font-size: 18px;
+  }
+  .tails {
+    color: #475569;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-game-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 550px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .coin-heading {
+    color: #a35200;
+    font-size: 40px;
+  }
+  .coin-description {
+    color: #334155;
+    font-size: 25px;
+  }
+  .coin-img {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .coin-btn {
+    color: #a35200;
+    font-size: 20px;
+    background-color: #f9d423;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+  }
+
+  .coin-result-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-top: 10px;
+  }
+  .total {
+    color: #475569;
+    font-size: 20px;
+  }
+  .heads {
+    color: #475569;
+    font-size: 20px;
+  }
+  .tails {
+    color: #475569;
+    font-size: 20px;
+  }
+}
